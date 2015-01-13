@@ -1,0 +1,21 @@
+#container {
+	width: 960px;
+	margin: 0px auto;
+	line-height: 0;
+	margin-top: 25px;
+}
+
+.square {
+	display: inline-block;
+	background-color: #E8E8E8;
+	margin: 0px 1px 2px 1px;
+}
+
+.btn-pad {
+	margin-right: 30px;
+}
+
+.center {
+	text-align: center;
+}
+

@@ -2,16 +2,31 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Sketechpad</title>
+	<title>Sketchpad</title>
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-	<script src="sktech.js"></script>
+	<script type="text/javascript" src="js/sketch.js"></script>
 </head>
 <body>
-	
+<nav class="navbar navbar-default">
+	<div class="container">
+		<div class="navbar-header">
+			<a href="#" class="navbar-brand">Sketchpad</a>
+		</div>
+		<div class="navbar-right">
+			<button type="button" class="btn btn-default navbar-btn" onclick="newGrid()">New</button>
+			<button type="button" class="btn btn-default navbar-btn" onclick="clearGrid()">Clear</button>
+			<button type="button" class="btn btn-default navbar-btn" onclick="newColor()">Color</button>
+		</div>
+
+	</div>
+</nav>
+<p class="center">Javascript sketchpad hover over the squares to change the color! Set a new grid size and change color!</p>
+<div id="container"></div>
+<p class="center">By Edward Shannon for The Project Odin @ 2015</p>
 </body>
 </html>
